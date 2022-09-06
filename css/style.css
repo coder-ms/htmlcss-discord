@@ -6,6 +6,11 @@
 html{
     font-family: 'Roboto', sans-serif;
 }
+:root {
+    --darkgrey: #36393E;
+    --indaco: #7983F5;
+    --white: #ffffff;
+}
 /* logo,nav e tasto accedi */
 header{
     width: 100%;
@@ -33,24 +38,24 @@ header{
     text-decoration: none;
 }
 a{
-    color: white;
+    color: var(--white);
     text-decoration: none;
 }
 /* Fine logo, nav e tasto accedi */
 /* Bottoni*/
 .btn{
-   background-color: white;
+   background-color: var(--white);
    padding: 10px 20px;
    border-radius: 20px; 
-   color: #36393E;
+   color: var(--darkgrey);
    text-decoration: none;
 }
 .grey{
-    background-color: #36393E;
-    color: white;
+    background-color: var(--darkgrey);
+    color: var(--white);
 }
 .lilla{
-    background-color: #7983F5;
+    background-color: var(--indaco);
 }
 /* Fine Bottoni */
 /* Jumbo */ 
@@ -66,12 +71,12 @@ a{
     text-align: center;
 }
 .inner-top p{
-    color: white;
+    color: var(--white);
     font-size: 20px;
     padding-bottom: 20px;
 }
 .inner-top h1{
-    color: white;
+    color: var(--white);
     padding-top: 95px;
     padding-bottom: 30px;
     font-size: 50px;
@@ -162,14 +167,14 @@ h3{
 /* Inizio Footer*/
 footer{
     width: 100%;
-    background-color:#36393E;
+    background-color:var(--darkgrey);
     min-height: 100px;
 }
 li img{
     width: 30px;
 }
 li{
-    color: white;
+    color: var(--white);
     padding: 5px 0;
 }
 .flexcontainer{
@@ -188,10 +193,10 @@ ul{
 hr{
     width: 80%;
     margin: 20px auto;   
-    border: 1px solid #7983F5 ;
-    background-color: #7983F5;
+    border: 1px solid var(--indaco) ;
+    background-color: var(--indaco);
 }
-.flexend{
+.endflex{
     display: flex;
     width: 80%;
     margin: 0 auto;
@@ -201,9 +206,9 @@ hr{
     
 }
 li h4{
-    color: #7983F5;
+    color: var(--indaco);
 }
 li h3{
-    color: #7983F5;
+    color: var(--indaco);
     padding-bottom: 10px;
 }
