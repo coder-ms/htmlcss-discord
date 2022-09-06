@@ -12,7 +12,7 @@ html{
     --white: #ffffff;
     --lightgrey: #f6f6f6;
 }
-/* logo,nav e tasto accedi */
+/* HEADER INI */
 header{
     width: 100%;
     background-color: #255EE8;
@@ -42,8 +42,8 @@ a{
     color: var(--white);
     text-decoration: none;
 }
-/* Fine logo, nav e tasto accedi */
-/* Bottoni*/
+/* HEADER END */
+/* BUTTON INI*/
 .btn{
    background-color: var(--white);
    padding: 10px 20px;
@@ -58,8 +58,8 @@ a{
 .lilla{
     background-color: var(--indaco);
 }
-/* Fine Bottoni */
-/* Jumbo */ 
+/* BUTTON END */
+/* JUMBO INI */ 
 .container-top{
     width: 100%;
     background-image: url('../img/jumbo.png');
@@ -87,8 +87,8 @@ a{
     margin-left: 20px;
 }
 
-/* Fine Jumbo*/
-/* Main*/
+/* JUMBO END*/
+/* MAIN INI*/
 
 .section{
     width: 100%;
@@ -174,8 +174,8 @@ h3{
 .box-center a{
     margin-bottom: 100px;
 }
-/* Fine Main */
-/* Inizio Footer*/
+/* END MAIN */
+/* FOOTER */
 footer{
     width: 100%;
     background-color:var(--darkgrey);
