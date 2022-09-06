@@ -191,7 +191,7 @@ hr{
     border: 1px solid #7983F5 ;
     background-color: #7983F5;
 }
-.flexlast{
+.flexend{
     display: flex;
     width: 80%;
     margin: 0 auto;
