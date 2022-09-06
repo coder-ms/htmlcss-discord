@@ -228,3 +228,115 @@ li h3{
     color: var(--indaco);
     padding-bottom: 10px;
 }
+/*
+li a:hover{
+
+}
+*/
+
+/* Pagina download*/
+
+:root{
+    --grigio:#23282B;
+    --bianco:#ffffff;
+    --grigiosfondo:#F6F6F6;
+}
+#download header{
+    background-color: var(--grigio);
+}#download .headercontainer{
+    background-color: var(--grigio);
+}
+#download .jumbo-container{
+    background-image: none;
+
+}
+#download .inner-jumbo{
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 1170px;
+    padding-top: 143px;
+
+}
+#download .inner-jumbo a{
+    margin-left: 0;
+}
+#download .inner-jumbo h1{
+    padding: 0;
+    padding-bottom: 40px;
+}
+#download .inner-jumbo p{
+    
+    padding-bottom: 40px;
+}
+#download  .inner-jumbo .btn{
+    padding: 20px 40px;
+    border-radius: 40px;
+    font-size: 20px;
+}
+#download .inner-jumbo span{
+    padding-left: 22px;
+    color: var(--bianco);
+}
+#download main{
+    width: 1170px;
+    margin: 0 auto;
+}
+.container-flex-download{
+    display: flex;
+    flex-basis: 50%;
+}
+#download .box{
+    background-color: var(--grigiosfondo);
+    height: 600px;
+    overflow: hidden;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 15px;
+      
+}
+#download .box-text{
+    background-color: var(--grigiosfondo);
+    min-height: 200px;
+    overflow: hidden;
+    padding: 40px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+      
+}
+.btn-download{
+    background-color: var(--grigio);
+    padding: 16px 32px;
+    border-radius: 30px; 
+    color: var(--bianco);
+    text-decoration: none;
+    
+ }
+ .testo-card{
+    padding-bottom: 50px;
+    
+ }
+ .testo-card h2{
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+ }
+ .testo-card p{
+    margin-bottom: 30px;
+ }
+ .flex-uno{
+    margin-top: 120px;
+    margin-bottom: 120px;
+ }
+ .flex-due{
+    margin-left: 20px;
+    margin-top:300px;
+    margin-bottom: 250px;
+ }
