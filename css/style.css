@@ -10,6 +10,7 @@ html{
     --darkgrey: #36393E;
     --indaco: #7983F5;
     --white: #ffffff;
+    --lightgrey: #f6f6f6;
 }
 /* logo,nav e tasto accedi */
 header{
@@ -99,7 +100,17 @@ a{
     display: flex;
     align-items: center;
 }
-
+.wavesvg{
+    color:var(--lightgrey);
+    display: block;
+    margin-bottom: -310px;
+}
+.reverse-wavesvg{
+    color:var(--lightgrey);
+    display: block;
+    margin-top: -55px;
+    transform: rotate(180deg);
+}
 .box-left h2{
     font-size: 50px;
     padding-bottom: 30px;
@@ -134,7 +145,7 @@ a{
     margin-top: 300px;
 }
 .bg-grey{
-    background-color:#f6f6f6 ;
+    background-color: var(--lightgrey);
 }
 .lastmainsection{
     width: 100%;
