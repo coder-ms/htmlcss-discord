@@ -105,6 +105,11 @@ a{
     display: block;
     margin-bottom: -310px;
 }
+.wavesvg-last{
+    color:var(--lightgrey);
+    display: block;
+    margin-bottom: -10px;
+}
 .reverse-wavesvg{
     color:var(--lightgrey);
     display: block;
