@@ -21,12 +21,12 @@ header{
     align-items: center;
 }
 
-.nav-flex{
+.bar-nav{
     list-style: none;
     min-width: 500px;
     display: flex;
 }    
-.nav-flex li{
+.bar-nav li{
     flex-direction: row;
     padding: 0 20px;
     align-items: center;
@@ -54,29 +54,29 @@ a{
 }
 /* Fine Bottoni */
 /* Jumbo */ 
-.jumbo-container{
+.container-top{
     width: 100%;
     background-image: url('../img/jumbo.png');
     height: 467px;
     background-size: cover;
 }
-.inner-jumbo{
+.inner-top{
     width: 800px;
     margin: 0 auto;
     text-align: center;
 }
-.inner-jumbo p{
+.inner-top p{
     color: white;
     font-size: 20px;
     padding-bottom: 20px;
 }
-.inner-jumbo h1{
+.inner-top h1{
     color: white;
     padding-top: 95px;
     padding-bottom: 30px;
     font-size: 50px;
 }
-.inner-jumbo a{
+.inner-top a{
     display: inline-block;
     margin-left: 20px;
 }
@@ -122,7 +122,7 @@ a{
 .right{
     flex-basis: 30%;
 }
-.margin50{
+.margin-50{
     margin-top: 50px;
 }
 .margin{
