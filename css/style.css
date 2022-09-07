@@ -33,9 +33,7 @@ header{
     display: flex;
 }    
 .bar-nav li{
-    flex-direction: row;
     padding: 0 20px;
-    align-items: center;
     text-decoration: none;
 }
 a{
@@ -228,23 +226,24 @@ li h3{
     color: var(--indaco);
     padding-bottom: 10px;
 }
-/*
-li a:hover{
 
+li a:hover{
+    background-color: var(--white);
+    color: var(--darkgrey);
 }
-*/
+
 
 /* PAGINA "-DONWLOAD DISCORD */
 
 :root{
-    --grigio:#23282B;
-    --bianco:#ffffff;
-    --grigiosfondo:#F6F6F6;
+    --grey:#23282B;
+    --white:#ffffff;
+    --lightgrey:#F6F6F6;
 }
 #download header{
-    background-color: var(--grigio);
+    background-color: var(--grey);
 }#download .headercontainer{
-    background-color: var(--grigio);
+    background-color: var(--grey);
 }
 #download .jumbo-container{
     background-image: none;
@@ -277,7 +276,7 @@ li a:hover{
 }
 #download .inner-jumbo span{
     padding-left: 22px;
-    color: var(--bianco);
+    color: var(--white);
 }
 #download main{
     width: 1170px;
@@ -288,7 +287,7 @@ li a:hover{
     flex-basis: 50%;
 }
 #download .box{
-    background-color: var(--grigiosfondo);
+    background-color: var(--lightgrey);
     height: 600px;
     overflow: hidden;
     padding: 40px;
@@ -300,7 +299,7 @@ li a:hover{
       
 }
 #download .box-text{
-    background-color: var(--grigiosfondo);
+    background-color: var(--lightgrey);
     min-height: 200px;
     overflow: hidden;
     padding: 40px;
@@ -312,7 +311,7 @@ li a:hover{
       
 }
 .btn-download{
-    background-color: var(--grigio);
+    background-color: var(--grey);
     padding: 16px 32px;
     border-radius: 30px; 
     color: var(--bianco);
